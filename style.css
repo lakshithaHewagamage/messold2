@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+}
+/*side bar stylling start*/
+.side-bar{
+    flex: 1;
+    margin: 3%;
+}
+.main{
+    margin-bottom: 20px;
+}
+.main i{
+    margin-bottom: 15px;
+    width: 25px;
+    font-size: 15px;
+    color: rgb(0, 0, 0,.5);
+}
+.main span{
+    font-family: sans-serif,"poppins";
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0,.4);
+}
+.main #numb{
+    margin-left: 90%;
+    padding: 5px;
+    background-color: rgb(139, 134, 134,.5);
+    border-radius: 10px;
+}
+.sale{
+    font-size: 12px;
+    font-family: sans-serif,"poppins";
+    font-weight: bold;
+    color: rgb(0, 0, 0,.4);
+    margin-bottom: 10px;
+}
+.sale i{
+    margin-left: 95%;
+    font-size: 12px;
+}
+.online{
+    margin-bottom: 10px;
+}
+.online i{
+    margin-bottom: 15px;
+    width: 25px;
+    font-size: 15px;
+    color: rgb(0, 0, 0,.5);
+}
+.online span{
+    font-family: sans-serif,"poppins";
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0,.4);
+}
+.online #plus{
+    margin-left:68%;
+    font-size: 12px;
+}
+.content{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: sans-serif,"poppins";
+    font-size: 15px;
+    color: rgb(0, 0, 0,.3);
+}
+.con-part{
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+.prefer{
+    margin-bottom: 10px;
+    padding-left: 35px;
+    font-weight: bold;
+    font-family: sans-serif,"poppins";
+    font-size: 15px;
+    color: rgb(0, 0, 0,.3);
+    background-color: rgb(0, 255, 255,.2);
+}
+.media{
+    margin-top: 20px;
+    font-size: 15px;
+    color: rgb(0, 0, 0,.5);
+}
+.media i{
+    margin-bottom: 10px;
+}
+.media span{
+    font-family: sans-serif,"poppins";
+    margin-left: 18px;
+    font-weight: bold;
+}
+.vertical{
+    margin-top: 20px;
+    height: 650px;
+    border-left: solid 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/*middle part stylling strat*/
+.middle{
+    flex: 1;
+    margin-top: 175px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.password{
+    font-family: sans-serif,"poppins";
+    font-size: 15px;
+    color: rgb(0, 0, 0,.7);
+    font-weight: bold;
+}
+.content2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: sans-serif,"poppins";
+    font-size: 14px;
+    color: rgb(0, 0, 0,.3);
+    line-height: 20px;
+}
+
+/*right bar stylling start*/
+.rightbar{
+    flex: 1;
+}
+.section1{
+    background-color: rgb(240, 255, 255,.5);
+    display: flex;
+    padding: 5px;
+    padding-left: 10%;
+    padding-bottom: 8%;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0,.4);
+}
+.text{
+    flex: 5;
+    font-family: sans-serif,"poppins";
+    color: rgb(0, 0, 0,.5);
+    margin-right: 10px;
+}
+.button{
+    flex: 1;
+}
+#btn{
+    font-size: 15px;
+    font-family: sans-serif,"poppins";
+    padding: 10px;
+    background-color: rgb(7, 142, 50);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid rgb(0, 0, 0,.5);
+}
+.section2{
+    background-color: rgb(240, 255, 255,.5);
+    padding: 5px;
+    padding-left: 10%;
+    padding-bottom: 8%;
+    border-radius: 10px;
+    font-family: sans-serif,"poppins";
+    border: solid 1px rgb(0, 0, 0,.4);
+}
+form{
+    font-size: 15px;
+    color: rgb(0, 0, 0,.5);
+}
+input{
+    font-size: 10px;color: rgb(0, 0, 0,.5);
+}
+#e-password{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+#password{
+    margin-top: 10px;
+    height: 20px;
+    width: 400px;
+}
+#p-pass{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#message{
+    margin-top: 10px;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 10px;
+}
